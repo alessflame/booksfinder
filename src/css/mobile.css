@@ -1,0 +1,92 @@
+
+
+@media only screen and (max-width:680px){
+
+
+
+     #menu{
+          display: none;
+     }
+
+     #boxHeader{
+          flex-direction: column;
+     }
+     
+
+     #boxHeader img{
+          margin-top: 0;
+     }
+
+     #bookStars{
+          position: fixed;
+          width: 95%;
+     }
+     
+      
+     
+
+     header{
+          
+          top: 0;
+          height: 70vh;
+          background-color: rgba(0, 0, 0, 0.363);
+          background-blend-mode: multiply;
+     }
+
+     header::after{
+          display: none;
+     }
+
+     
+     #boxWrite{
+          margin-top: 20px;
+          width: auto;
+          align-items: center;
+          padding-right: 20px;
+     }
+
+     header h1{
+          margin-top: 0;
+          
+     }
+    
+     
+     header h2::after{
+         bottom: -10px;
+     }
+
+
+     #appInfo{
+           flex-direction: column;
+           align-items: center;
+      } 
+      
+      .infoCard{margin-top: 30px;
+          width: 80%;}
+
+          #categoriesList li{
+               flex-basis: 40%;
+          }
+
+          #boxSearch input{
+               width: 80%;
+          }
+
+    button{width: 50%;}
+
+    #booksList{
+         flex-wrap: nowrap;
+         flex-direction: column;
+         align-items: center;
+         
+    }
+
+    #booksList li{
+         width: 90%;
+    }
+
+    #choiseBook b{
+         width: 90%;
+    }
+
+}
